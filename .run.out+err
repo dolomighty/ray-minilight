@@ -1,18 +1,1 @@
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o Camera.o Camera.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o Random.o Random.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o RayTracer.o RayTracer.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o Scene.o Scene.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o SpatialIndex.o SpatialIndex.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o SurfacePoint.o SurfacePoint.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o Triangle.o Triangle.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o V3f.o V3f.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o loop.o loop.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o frame.o frame.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o last.o last.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o M34.o M34.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o globals.o globals.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o hdr.o hdr.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o obj_import.o obj_import.cpp
-g++  `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3  -c -o main.o main.cpp
-g++ `pkg-config --cflags sdl2` -fopenmp -Werror -I scenes -I dyn -I png  -O3 -o main Camera.o Random.o RayTracer.o Scene.o SpatialIndex.o SurfacePoint.o Triangle.o V3f.o loop.o frame.o last.o M34.o globals.o hdr.o obj_import.o main.o `pkg-config --libs   sdl2` -lm
 ./main scenes/room.obj
